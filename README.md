@@ -19,7 +19,3 @@ $ python3 main.py
 `expts_result.ipynb` を参照．
 
 
-# メモ
-
-SingleTaskGP_laplacian は SingleTaskGP(_Matern) と比較して，fitting が異常に高速に感じたので，もしかしたら fitting をしていないかもしれない．
-
