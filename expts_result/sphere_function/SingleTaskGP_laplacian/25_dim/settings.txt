@@ -1,0 +1,10 @@
+n_runs: 100
+dim: 25
+init_eval_num: 10
+target_function_name: sphere_function
+target_function: <function sphere_function at 0x7f035cde79a0>
+target_value: 0
+surrogate_name: SingleTaskGP_laplacian
+surrogate: <class 'utils.surrogate.SingleTaskGP_laplacian'>
+bo_num: 10
+accumulated_loss: 48.79460004875828

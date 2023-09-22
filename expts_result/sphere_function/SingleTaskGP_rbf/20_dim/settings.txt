@@ -1,0 +1,10 @@
+n_runs: 100
+dim: 20
+init_eval_num: 10
+target_function_name: sphere_function
+target_function: <function sphere_function at 0x7fdcc03e79a0>
+target_value: 0
+surrogate_name: SingleTaskGP_rbf
+surrogate: <class 'utils.surrogate.SingleTaskGP_rbf'>
+bo_num: 10
+accumulated_loss: 41.06347949571061
