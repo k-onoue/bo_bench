@@ -56,28 +56,28 @@ settings_3 = {
 
 if __name__ == '__main__':
 
-    # dim_0 = 2
-    # settings_1['dim'] = dim_0
-    # settings_2['dim'] = dim_0
-    # settings_3['dim'] = dim_0
-    # run_expt(settings_1)
-    # run_expt(settings_2)
-    # run_expt(settings_3)
+    dim_0 = 2
+    settings_1['dim'] = dim_0
+    settings_2['dim'] = dim_0
+    settings_3['dim'] = dim_0
+    run_expt(settings_1)
+    run_expt(settings_2)
+    run_expt(settings_3)
 
 
-    # dim_1 = 5
-    # for i in range(4):
-    #     settings_1['dim'] = dim_1
-    #     settings_2['dim'] = dim_1
-    #     settings_3['dim'] = dim_1
-    #     run_expt(settings_1)
-    #     run_expt(settings_2)
-    #     run_expt(settings_3)
-    #     dim_1 += 5
+    dim_1 = 5
+    for i in range(4):
+        settings_1['dim'] = dim_1
+        settings_2['dim'] = dim_1
+        settings_3['dim'] = dim_1
+        run_expt(settings_1)
+        run_expt(settings_2)
+        run_expt(settings_3)
+        dim_1 += 5
 
 
     dim_2 = 25
-    for i in range(4):
+    for i in range(3):
         settings_1['dim'] = dim_2
         settings_2['dim'] = dim_2
         settings_3['dim'] = dim_2
